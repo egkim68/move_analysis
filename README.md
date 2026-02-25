@@ -8,11 +8,7 @@ Supplementary data and scripts for:
 
 | File | Description |
 |------|-------------|
-| `dataset_human.csv` | Bibliographic metadata and human-coded move sequences (Kim, 2014) |
-| `dataset_claude.csv` | Bibliographic metadata and move sequences annotated by Claude 3.5 Haiku |
-| `dataset_openai.csv` | Bibliographic metadata and move sequences annotated by GPT-4o Mini |
-| `dataset_gemini.csv` | Bibliographic metadata and move sequences annotated by Gemini 2.0 Flash |
-| `dataset_deepseek.csv` | Bibliographic metadata and move sequences annotated by DeepSeek Chat |
+| `dataset.csv` | Bibliographic metadata and move sequences for all annotators |
 | `moves-claude.py` | Annotation pipeline script — Claude 3.5 Haiku |
 | `moves-openai.py` | Annotation pipeline script — GPT-4o Mini |
 | `moves-gemini.py` | Annotation pipeline script — Gemini 2.0 Flash |
@@ -20,7 +16,7 @@ Supplementary data and scripts for:
 
 ## Data
 
-Each dataset contains bibliographic metadata (article ID, citation, first sentence) and BAMRC rhetorical move sequences for 415 social science abstracts retrieved from Scopus (keyword: "attitude", 2012–2014). Full abstract texts are not included due to Scopus licensing restrictions. The corpus can be reconstructed using the search parameters described in Section 3.1 of the manuscript.
+`dataset.csv` contains bibliographic metadata (article ID, citation, first sentence) and BAMRC rhetorical move sequences for 415 social science abstracts, with columns for each annotator (Human, Claude, OpenAI, Gemini, DeepSeek). Full abstract texts are not included due to Scopus licensing restrictions. The corpus can be reconstructed using the search parameters described in Section 3.1 of the manuscript.
 
 BAMRC categories: 1 = Background, 2 = Aim, 3 = Method, 4 = Results, 5 = Conclusion, 6 = Undefined.
 
