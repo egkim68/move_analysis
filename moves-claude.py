@@ -1,6 +1,6 @@
 """
 BAMRC annotation pipeline using Claude 3.5 Haiku.
-Supplementary material for: Kim, E. (2025). The Electronic Library.
+Supplementary material for: Kim, E. (2026). The Electronic Library.
 Repository: https://github.com/egkim68/move_analysis
 
 Requirements: pip install anthropic pandas
