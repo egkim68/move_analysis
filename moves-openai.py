@@ -1,6 +1,6 @@
 """
 BAMRC annotation pipeline using OpenAI GPT-4o Mini.
-Supplementary material for: Kim, E. (2025). The Electronic Library.
+Supplementary material for: Kim, E. (2026). The Electronic Library.
 Repository: https://github.com/egkim68/move_analysis
 
 Requirements: pip install openai pandas
